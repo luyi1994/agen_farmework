@@ -14,7 +14,7 @@ def chat(
 
     typer.echo("Agent 初始化中...")
     agent = Agent()
-    typer.echo("✓ Agent 就绪，输入 'exit' 退出\n")
+    typer.echo("[OK] Agent 就绪，输入 'exit' 退出\n")
 
     while True:
         try:

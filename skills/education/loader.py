@@ -48,8 +48,9 @@ def parse_education_skill(filepath: str) -> EducationSkill:
     parameters = _convert_input_schema(meta.get("input_schema", {}))
 
     # 生成 agent 注册名称：edu__domain__skill-name
+    # OpenAI 工具名称限制 64 字符，需要缩短域名
     skill_id = meta.get("skill_id", "")
-    name = f"edu__{skill_id.replace('/', '__')}"
+    name = _make_tool_name(skill_id)
 
     return EducationSkill(
         name=name,
@@ -63,6 +64,57 @@ def parse_education_skill(filepath: str) -> EducationSkill:
         skill_id=skill_id,
         tags=meta.get("tags", []),
     )
+
+
+_DOMAIN_ABBREV = {
+    "ai-learning-science": "ai_ls",
+    "curriculum-assessment": "cur_as",
+    "eal-language-development": "eal_ld",
+    "environmental-experiential-learning": "env_el",
+    "explicit-instruction": "exp_in",
+    "global-cross-cultural-pedagogies": "gcc_pd",
+    "literacy-critical-thinking": "lit_ct",
+    "memory-learning-science": "mem_ls",
+    "montessori-alternative-approaches": "mont_aa",
+    "original-frameworks": "orig_fw",
+    "professional-learning": "prof_l",
+    "questioning-discussion": "q_disc",
+    "self-regulated-learning": "srl",
+    "wellbeing-motivation-agency": "well_ma",
+}
+
+
+def _make_tool_name(skill_id: str, max_len: int = 64) -> str:
+    """
+    将 skill_id (如 'domain/skill-name') 转为符合 OpenAI 64 字符限制的工具名。
+    策略：edu__{abbrev_domain}__{skill-name}，将 '-' 替换为 '_'。
+    """
+    if "/" in skill_id:
+        domain, skill_name = skill_id.split("/", 1)
+    else:
+        domain, skill_name = "", skill_id
+
+    abbrev = _DOMAIN_ABBREV.get(domain, domain.replace("-", "_")[:10])
+    skill_part = skill_name.replace("-", "_")
+    name = f"edu__{abbrev}__{skill_part}"
+
+    if len(name) > max_len:
+        # 截断 skill_part，保留前缀可辨识
+        allowed = max_len - len(f"edu__{abbrev}__")
+        name = f"edu__{abbrev}__{skill_part[:allowed]}"
+
+    return name
+
+
+def _build_property(field_def: dict) -> dict:
+    """构建单个属性的 JSON Schema，确保 array 类型包含 items。"""
+    prop = {
+        "type": field_def.get("type", "string"),
+        "description": field_def.get("description", ""),
+    }
+    if prop["type"] == "array":
+        prop["items"] = {"type": field_def.get("items_type", "string")}
+    return prop
 
 
 def _convert_input_schema(schema: dict) -> dict:
@@ -95,17 +147,11 @@ def _convert_input_schema(schema: dict) -> dict:
     for field_def in schema.get("required", []):
         field_name = field_def["field"]
         required.append(field_name)
-        properties[field_name] = {
-            "type": field_def.get("type", "string"),
-            "description": field_def.get("description", ""),
-        }
+        properties[field_name] = _build_property(field_def)
 
     for field_def in schema.get("optional", []):
         field_name = field_def["field"]
-        properties[field_name] = {
-            "type": field_def.get("type", "string"),
-            "description": field_def.get("description", ""),
-        }
+        properties[field_name] = _build_property(field_def)
 
     return {
         "type": "object",

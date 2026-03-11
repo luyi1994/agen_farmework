@@ -1,0 +1,138 @@
+2026-03-09 13:28:20.911 | DEBUG    | tools.registry:register:19 - Tool 已注册: web_search
+2026-03-09 13:28:20.911 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_read
+2026-03-09 13:28:20.911 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_write
+2026-03-09 13:28:20.927 | DEBUG    | tools.registry:register:19 - Tool 已注册: content_extractor
+2026-03-09 13:28:20.927 | DEBUG    | skills.registry:register:18 - Skill 已注册: research
+2026-03-09 13:28:20.927 | DEBUG    | tools.registry:register:19 - Tool 已注册: text_chunker
+2026-03-09 13:28:20.927 | DEBUG    | skills.registry:register:18 - Skill 已注册: summarize
+2026-03-09 13:28:20.927 | DEBUG    | tools.registry:register:19 - Tool 已注册: calculator
+2026-03-09 13:28:20.928 | DEBUG    | skills.registry:register:18 - Skill 已注册: data_analysis
+2026-03-09 13:28:20.928 | DEBUG    | tools.registry:register:19 - Tool 已注册: markdown_formatter
+2026-03-09 13:28:20.928 | DEBUG    | skills.registry:register:18 - Skill 已注册: write_report
+2026-03-09 13:28:20.928 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=claude-sonnet-4-6
+2026-03-09 13:28:25.487 | INFO     | memory.short_term:_init_redis:30 - 短期记忆 Redis 已连接: redis://localhost:6379
+2026-03-11 15:32:58.239 | DEBUG    | tools.registry:register:19 - Tool 已注册: web_search
+2026-03-11 15:32:58.239 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_read
+2026-03-11 15:32:58.239 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_write
+2026-03-11 15:32:58.242 | DEBUG    | tools.registry:register:19 - Tool 已注册: content_extractor
+2026-03-11 15:32:58.242 | DEBUG    | skills.registry:register:18 - Skill 已注册: research
+2026-03-11 15:32:58.242 | DEBUG    | tools.registry:register:19 - Tool 已注册: text_chunker
+2026-03-11 15:32:58.242 | DEBUG    | skills.registry:register:18 - Skill 已注册: summarize
+2026-03-11 15:32:58.242 | DEBUG    | tools.registry:register:19 - Tool 已注册: calculator
+2026-03-11 15:32:58.242 | DEBUG    | skills.registry:register:18 - Skill 已注册: data_analysis
+2026-03-11 15:32:58.242 | DEBUG    | tools.registry:register:19 - Tool 已注册: markdown_formatter
+2026-03-11 15:32:58.242 | DEBUG    | skills.registry:register:18 - Skill 已注册: write_report
+2026-03-11 15:32:58.244 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:33:03.172 | INFO     | memory.short_term:_init_redis:30 - 短期记忆 Redis 已连接: redis://localhost:6379
+2026-03-11 15:34:27.558 | DEBUG    | tools.registry:register:19 - Tool 已注册: web_search
+2026-03-11 15:34:27.558 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_read
+2026-03-11 15:34:27.558 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_write
+2026-03-11 15:34:27.561 | DEBUG    | tools.registry:register:19 - Tool 已注册: content_extractor
+2026-03-11 15:34:27.561 | DEBUG    | skills.registry:register:18 - Skill 已注册: research
+2026-03-11 15:34:27.561 | DEBUG    | tools.registry:register:19 - Tool 已注册: text_chunker
+2026-03-11 15:34:27.561 | DEBUG    | skills.registry:register:18 - Skill 已注册: summarize
+2026-03-11 15:34:27.561 | DEBUG    | tools.registry:register:19 - Tool 已注册: calculator
+2026-03-11 15:34:27.561 | DEBUG    | skills.registry:register:18 - Skill 已注册: data_analysis
+2026-03-11 15:34:27.561 | DEBUG    | tools.registry:register:19 - Tool 已注册: markdown_formatter
+2026-03-11 15:34:27.561 | DEBUG    | skills.registry:register:18 - Skill 已注册: write_report
+2026-03-11 15:34:27.562 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:34:32.258 | INFO     | memory.short_term:_init_redis:30 - 短期记忆 Redis 已连接: redis://localhost:6379
+2026-03-11 15:36:16.883 | DEBUG    | tools.registry:register:19 - Tool 已注册: web_search
+2026-03-11 15:36:16.883 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_read
+2026-03-11 15:36:16.883 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_write
+2026-03-11 15:36:16.887 | DEBUG    | tools.registry:register:19 - Tool 已注册: content_extractor
+2026-03-11 15:36:16.887 | DEBUG    | skills.registry:register:18 - Skill 已注册: research
+2026-03-11 15:36:16.887 | DEBUG    | tools.registry:register:19 - Tool 已注册: text_chunker
+2026-03-11 15:36:16.887 | DEBUG    | skills.registry:register:18 - Skill 已注册: summarize
+2026-03-11 15:36:16.887 | DEBUG    | tools.registry:register:19 - Tool 已注册: calculator
+2026-03-11 15:36:16.887 | DEBUG    | skills.registry:register:18 - Skill 已注册: data_analysis
+2026-03-11 15:36:16.887 | DEBUG    | tools.registry:register:19 - Tool 已注册: markdown_formatter
+2026-03-11 15:36:16.887 | DEBUG    | skills.registry:register:18 - Skill 已注册: write_report
+2026-03-11 15:36:16.889 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:36:21.513 | INFO     | memory.short_term:_init_redis:30 - 短期记忆 Redis 已连接: redis://localhost:6379
+2026-03-11 15:37:07.526 | DEBUG    | tools.registry:register:19 - Tool 已注册: web_search
+2026-03-11 15:37:07.526 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_read
+2026-03-11 15:37:07.526 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_write
+2026-03-11 15:37:07.528 | DEBUG    | tools.registry:register:19 - Tool 已注册: content_extractor
+2026-03-11 15:37:07.528 | DEBUG    | skills.registry:register:18 - Skill 已注册: research
+2026-03-11 15:37:07.528 | DEBUG    | tools.registry:register:19 - Tool 已注册: text_chunker
+2026-03-11 15:37:07.528 | DEBUG    | skills.registry:register:18 - Skill 已注册: summarize
+2026-03-11 15:37:07.528 | DEBUG    | tools.registry:register:19 - Tool 已注册: calculator
+2026-03-11 15:37:07.529 | DEBUG    | skills.registry:register:18 - Skill 已注册: data_analysis
+2026-03-11 15:37:07.529 | DEBUG    | tools.registry:register:19 - Tool 已注册: markdown_formatter
+2026-03-11 15:37:07.529 | DEBUG    | skills.registry:register:18 - Skill 已注册: write_report
+2026-03-11 15:37:07.530 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:37:26.252 | DEBUG    | tools.registry:register:19 - Tool 已注册: web_search
+2026-03-11 15:37:26.252 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_read
+2026-03-11 15:37:26.252 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_write
+2026-03-11 15:37:26.255 | DEBUG    | tools.registry:register:19 - Tool 已注册: content_extractor
+2026-03-11 15:37:26.255 | DEBUG    | skills.registry:register:18 - Skill 已注册: research
+2026-03-11 15:37:26.255 | DEBUG    | tools.registry:register:19 - Tool 已注册: text_chunker
+2026-03-11 15:37:26.255 | DEBUG    | skills.registry:register:18 - Skill 已注册: summarize
+2026-03-11 15:37:26.255 | DEBUG    | tools.registry:register:19 - Tool 已注册: calculator
+2026-03-11 15:37:26.255 | DEBUG    | skills.registry:register:18 - Skill 已注册: data_analysis
+2026-03-11 15:37:26.255 | DEBUG    | tools.registry:register:19 - Tool 已注册: markdown_formatter
+2026-03-11 15:37:26.255 | DEBUG    | skills.registry:register:18 - Skill 已注册: write_report
+2026-03-11 15:37:26.257 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:37:28.813 | INFO     | memory.short_term:_init_redis:30 - 短期记忆 Redis 已连接: redis://127.0.0.1:6379
+2026-03-11 15:38:26.014 | DEBUG    | tools.registry:register:19 - Tool 已注册: web_search
+2026-03-11 15:38:26.014 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_read
+2026-03-11 15:38:26.014 | DEBUG    | tools.registry:register:19 - Tool 已注册: file_write
+2026-03-11 15:38:26.018 | DEBUG    | tools.registry:register:19 - Tool 已注册: content_extractor
+2026-03-11 15:38:26.018 | DEBUG    | skills.registry:register:18 - Skill 已注册: research
+2026-03-11 15:38:26.018 | DEBUG    | tools.registry:register:19 - Tool 已注册: text_chunker
+2026-03-11 15:38:26.018 | DEBUG    | skills.registry:register:18 - Skill 已注册: summarize
+2026-03-11 15:38:26.018 | DEBUG    | tools.registry:register:19 - Tool 已注册: calculator
+2026-03-11 15:38:26.018 | DEBUG    | skills.registry:register:18 - Skill 已注册: data_analysis
+2026-03-11 15:38:26.018 | DEBUG    | tools.registry:register:19 - Tool 已注册: markdown_formatter
+2026-03-11 15:38:26.018 | DEBUG    | skills.registry:register:18 - Skill 已注册: write_report
+2026-03-11 15:38:26.020 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:38:28.516 | INFO     | memory.short_term:_init_redis:30 - 短期记忆 Redis 已连接: redis://127.0.0.1:6379
+2026-03-11 15:38:28.591 | INFO     | memory.long_term:_init_es:39 - Elasticsearch 已连接: http://192.168.11.92:1200, version=8.11.3
+2026-03-11 15:39:28.136 | DEBUG    | memory.long_term:_get_embedding_model:68 - Embedding 模型已加载: paraphrase-multilingual-MiniLM-L12-v2
+2026-03-11 15:39:28.541 | INFO     | memory.long_term:_ensure_index:57 - ES 索引已创建: agent_memory (dims=384)
+2026-03-11 15:39:28.545 | INFO     | memory.short_term:_init_redis:30 - 短期记忆 Redis 已连接: redis://127.0.0.1:6379
+2026-03-11 15:39:28.549 | INFO     | memory.long_term:_init_es:39 - Elasticsearch 已连接: http://192.168.11.92:1200, version=8.11.3
+2026-03-11 15:39:28.556 | INFO     | core.agent:__init__:44 - Agent 初始化完成: tools=3, skills=4
+2026-03-11 15:39:38.304 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:39:44.438 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:41:08.046 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:41:19.930 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=1
+2026-03-11 15:41:19.931 | INFO     | tools.registry:execute:28 - 执行 Tool: web_search, args={'query': '北京天气'}
+2026-03-11 15:41:21.380 | INFO     | core.graph:tool_executor_node:101 - 执行完成: web_search → 成功
+2026-03-11 15:41:23.434 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:41:39.231 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=1
+2026-03-11 15:41:39.232 | INFO     | tools.registry:execute:28 - 执行 Tool: web_search, args={'query': '今天的金价'}
+2026-03-11 15:41:40.845 | INFO     | core.graph:tool_executor_node:101 - 执行完成: web_search → 成功
+2026-03-11 15:41:42.573 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:41:59.488 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=1
+2026-03-11 15:41:59.489 | INFO     | tools.registry:execute:28 - 执行 Tool: web_search, args={'query': '今天金价 金投网'}
+2026-03-11 15:42:01.151 | INFO     | core.graph:tool_executor_node:101 - 执行完成: web_search → 成功
+2026-03-11 15:42:02.517 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:42:32.906 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:43:33.572 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=1
+2026-03-11 15:43:33.573 | INFO     | tools.registry:execute:28 - 执行 Tool: file_read, args={'path': 'C:\\Users\\Administrator\\Desktop\\新建文件夹 (2)\\金正恩.txt'}
+2026-03-11 15:43:33.573 | INFO     | core.graph:tool_executor_node:101 - 执行完成: file_read → 成功
+2026-03-11 15:43:41.734 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:44:03.611 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=1
+2026-03-11 15:44:03.612 | INFO     | skills.registry:execute:27 - 执行 Skill: summarize, args={'text': '中新网2月17日电 据朝中社中文网报道，朝鲜16日在平壤举行隆重仪式，公布命名锦绣山纪念宫为“锦绣山太阳宫”的共同决议，朝鲜人民军陆海空三军官兵向金日成大元帅和金正日大元帅表示崇高敬意，发誓无限忠于最高司令官金正恩。\n\n朝鲜党、国家和军队的最高领导者金正恩出席仪式。\n\n金永南、崔永林、李英镐、金庆喜、金永春、金正角等朝鲜党、国家和军队的领导人，朝鲜人民军各军兵种司令官，党武、政权机关、社会团体、各省、中央机关干部，朝鲜人民军和朝鲜人民内务军官兵，科教文卫、新闻出版部门干部和劳模参加了仪式。 海外同胞、反帝民族民主战线平壤支部代表、驻朝各国外交使节和国际机构代表、武官团成员应邀出席。\n\n参加仪式人员肃立默哀，虔敬悼念金正日。仪式上首先宣读了朝鲜劳动党中央委员会、党中央军事委员会、朝鲜国防委员会、朝鲜最高人民会议常任委员会、朝鲜内阁关于命名像生前一样安放金日成主席和金正日同志的锦绣山纪念宫为“锦绣山太阳宫”的共同决议。\n\n接着，朝鲜人民军陆海空三军官兵展开了阅兵仪式。全体参加者仰望金日成大元帅和金正日大元帅的太阳像，致以最崇高的敬意。在庄重的《金日成将军之歌》和《金正日将军之歌》的乐曲声中，鸣放21响礼炮。\n\n朝鲜劳动党中央政治局常委、朝鲜人民军总参谋长李英镐致词。李英镐宣誓称，即使地球崩裂、“翻天覆地一百遍”，也要作为永远与党同呼吸共命运的金日成和金正日的军队、金正恩的军队。 随后，军旗方阵护卫者金正日太阳像走入广场。\n\n阅兵仪式上，朝鲜陆海空军部队方阵在队伍前方飘扬着最高司令官旗、党旗和军旗合着吹奏乐走过主席台。金正恩向队伍行举手礼。火箭炮、导弹、装甲车等纵队驶过广场。\n\n列队行进结束后，金正恩向热烈欢呼的群众亲切挥手致意。', 'max_length': 300}
+2026-03-11 15:44:03.613 | INFO     | skills.summarize.skill:run:25 - SummarizeSkill 开始: text_len=724
+2026-03-11 15:44:03.613 | DEBUG    | skills.summarize.skill:run:30 - 文本分为 1 块
+2026-03-11 15:44:03.613 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:44:09.680 | INFO     | core.graph:tool_executor_node:101 - 执行完成: summarize → 成功
+2026-03-11 15:44:14.713 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:44:28.134 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:44:59.678 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:46:02.291 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=1
+2026-03-11 15:46:02.292 | INFO     | tools.registry:execute:28 - 执行 Tool: file_read, args={'path': 'C:\\Users\\Administrator\\Desktop\\新建文件夹 (2)\\新建文本文档3.txt'}
+2026-03-11 15:46:02.292 | INFO     | core.graph:tool_executor_node:101 - 执行完成: file_read → 成功
+2026-03-11 15:46:11.840 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=1
+2026-03-11 15:46:11.841 | INFO     | skills.registry:execute:27 - 执行 Skill: summarize, args={'text': '到百度首页\n意大利小偷把肾结石误认黄金偷走\n百度首页132******62\n网页\n图片\n资讯\n视频\n笔记\n地图\n贴吧\n文库\n更多\n百度为您找到相关资讯37个全部资讯\ue615按焦点排序\ue615\n热搜榜民生榜财经榜\n固本强基 做实做强实体经济\n1AI提供的虚拟微信号加到了真人热\n221岁女生头晕以为没睡好查出脑梗热\n3从三餐四季看小麦变身记\n4男子政府机关借厕所遭辱骂 当地回应热\n5反诈老陈因多次违规被处罚\n6美国英国加拿大印度紧急撤人热\n72026年考研国家线公布新\n8手机集体涨价后 汽车会是下一个吗热\n923岁博士胃癌晚期 经常错过食堂饭点\n10网友建议每年免费5000公里 专家回应热\n11不法分子假冒中石油官网卖加油卡\n12中国城市竞争正被一个新设机构搅动新\n13金正恩向主要领导干部赠送狙击步枪\n14伊朗同意不拥有可制造核弹核材料热\n15为5胞胎接生的专家肉眼可见地老了热\n意大利小偷把两块肾结石偷走 误将结石当黄金\n2小时前近日,意大利发生了一起令人啼笑皆非的盗窃事件。由于黄金价格持续高涨,一名小偷闯入某公寓,偷走了两小块装在盒子里的“黄金”。失主无奈地表示,实际上那是他的肾结石。 据《威尼托信使报》前副主编朱塞佩·拉戈尼亚透露,这起盗窃案发生在晚上7时,当时家里无人。窃贼撬... \n中华网·新闻\n意大利小偷把肾结石误认黄金偷走 窃贼错拿“宝贝”\n昨天15:26意大利小偷把肾结石误认黄金偷走 窃贼错拿“宝贝”。近日,意大利发生了一则新闻。新闻提到因黄金价格居高不下,意大利一小偷近来闯入某公寓,偷走了两小块用盒子装着的“黄金”，失主对此无奈地表示,其实那是肾结石。四川观察 ，赞 30...\n大象新闻\n意大利小偷把肾结石误认成黄金偷走,失主无奈:其他失窃财物仅千余元\n昨天15:48近日，TVBS报道了一则新闻。新闻提到因黄金价格居高不下,意大利一小偷近来闯入某公寓,偷走了两小块用盒子装着的“黄金”，失主对此无奈地表示,其实那是肾结石。四川观察 ，赞 30...\n意大利小偷把肾结石误认黄金偷走 当事人:给他个教训\n昨天17:10当地时间本月 16 日晚 7 时,意大利威尼托地区波代诺内市发生了一起让人忍俊不禁的盗窃案。失主是《威尼托信使报》前副主编切朱塞佩·拉戈尼亚(Giuseppe Ragogna),当晚他外出未归,一名窃贼趁机撬开他家阳台窗户,潜入...', 'max_length': 300}
+2026-03-11 15:46:11.842 | INFO     | skills.summarize.skill:run:25 - SummarizeSkill 开始: text_len=988
+2026-03-11 15:46:11.842 | DEBUG    | skills.summarize.skill:run:30 - 文本分为 1 块
+2026-03-11 15:46:11.842 | INFO     | llm.litellm_provider:__init__:25 - LLM Provider 初始化: model=gpt-4o-mini
+2026-03-11 15:46:16.106 | INFO     | core.graph:tool_executor_node:101 - 执行完成: summarize → 成功
+2026-03-11 15:46:20.049 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:46:45.329 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:47:29.192 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
+2026-03-11 15:47:55.955 | DEBUG    | core.graph:llm_call_node:71 - LLM 响应: tool_calls=0
